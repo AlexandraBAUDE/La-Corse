@@ -1,0 +1,76 @@
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	color: #C66D10;
+	font-size: 32px;
+	font-style: !important;
+}
+
+p {font-weight: bold;
+
+}
+
+img {
+width: 200px;	
+height: 200px;
+}
+
+.banner {
+	background-image:url(images/roche.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 75px;
+}
+
+.btn-yellow {
+  background-color: #F9B434;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn-yellow:hover {
+  background-color: #F9B434;
+  color: white;
+  opacity: 0.8;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 4px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card-white h3 {
+	margin-bottom: 0px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	 margin-bottom: 30px
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
